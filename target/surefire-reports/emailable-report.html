@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Device-1-Test</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num">0</td><td class="num">154,838</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Device-2-Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">252,274</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num attn">4</th><th class="num">0</th><th class="num attn">1</th><th class="num">407,112</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Device-1-Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.tests.LoginTests</td><td><a href="#m0">ClassSetup</a></td><td rowspan="1">1774173580772</td><td rowspan="1">150490</td></tr><tr><th colspan="4">Device-1-Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="9">com.qa.tests.LoginTests</td><td><a href="#m1">ClassTeardown</a></td><td rowspan="1">1774173735598</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">TestSetup</a></td><td rowspan="4">1774173735587</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m3">TestSetup</a></td></tr><tr class="skippedeven"><td><a href="#m4">TestSetup</a></td></tr><tr class="skippedeven"><td><a href="#m5">TestSetup</a></td></tr><tr class="skippedeven"><td><a href="#m6">TestTeardowh</a></td><td rowspan="4">1774173735589</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m7">TestTeardowh</a></td></tr><tr class="skippedeven"><td><a href="#m8">TestTeardowh</a></td></tr><tr class="skippedeven"><td><a href="#m9">TestTeardowh</a></td></tr><tr><th colspan="4">Device-1-Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">com.qa.tests.LoginTests</td><td><a href="#m10">Method1</a></td><td rowspan="1">1774173731309</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m11">Method2</a></td><td rowspan="2">1774173735588</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m12">Method2</a></td></tr><tr class="skippedeven"><td><a href="#m13">Method3</a></td><td rowspan="1">1774173735596</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Device-2-Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.tests.LoginTests</td><td><a href="#m14">AfterSetup</a></td><td rowspan="1">1774173833091</td><td rowspan="1">1663</td></tr><tr><th colspan="4">Device-2-Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.tests.LoginTests</td><td><a href="#m15">Method3</a></td><td rowspan="1">1774173814668</td><td rowspan="1">3628</td></tr><tr><th colspan="4">Device-2-Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.tests.LoginTests</td><td><a href="#m16">Method1</a></td><td rowspan="1">1774173687217</td><td rowspan="1">54242</td></tr><tr class="passedeven"><td><a href="#m17">Method2</a></td><td rowspan="2">1774173742741</td><td rowspan="2">23780</td></tr><tr class="passedeven"><td><a href="#m18">Method2</a></td></tr></tbody>
+</table>
+<h2>Device-1-Test</h2><h3 id="m0">com.qa.tests.LoginTests#ClassSetup</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>4725</td><td>Device1</td><td>emulator-5554</td><td>Android</td><td>8200</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the &apos;com.androidsample.generalstore&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: &apos;com.androidsample.generalstore.SplashActivity&apos; never started. Consider checking the driver&apos;s troubleshooting documentation. 
+Host info: host: &apos;AMIT_PC&apos;, ip: &apos;192.168.1.10&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at com.qa.base.BaseTest.ClassSetup(BaseTest.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.tests.LoginTests#ClassTeardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.tests.LoginTests#TestSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.tests.LoginTests#TestSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.tests.LoginTests#TestSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.tests.LoginTests#TestSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.tests.LoginTests#TestTeardowh</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.tests.LoginTests#TestTeardowh</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.tests.LoginTests#TestTeardowh</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.tests.LoginTests#TestTeardowh</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.qa.tests.LoginTests#Method1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the &apos;com.androidsample.generalstore&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: &apos;com.androidsample.generalstore.SplashActivity&apos; never started. Consider checking the driver&apos;s troubleshooting documentation. 
+Host info: host: &apos;AMIT_PC&apos;, ip: &apos;192.168.1.10&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at com.qa.base.BaseTest.ClassSetup(BaseTest.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.qa.tests.LoginTests#Method2</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Amit</td><td>Algeria</td><td>Male</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the &apos;com.androidsample.generalstore&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: &apos;com.androidsample.generalstore.SplashActivity&apos; never started. Consider checking the driver&apos;s troubleshooting documentation. 
+Host info: host: &apos;AMIT_PC&apos;, ip: &apos;192.168.1.10&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at com.qa.base.BaseTest.ClassSetup(BaseTest.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.qa.tests.LoginTests#Method2</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Vishal</td><td>China</td><td>Female</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the &apos;com.androidsample.generalstore&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: &apos;com.androidsample.generalstore.SplashActivity&apos; never started. Consider checking the driver&apos;s troubleshooting documentation. 
+Host info: host: &apos;AMIT_PC&apos;, ip: &apos;192.168.1.10&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at com.qa.base.BaseTest.ClassSetup(BaseTest.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.qa.tests.LoginTests#Method3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the &apos;com.androidsample.generalstore&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: &apos;com.androidsample.generalstore.SplashActivity&apos; never started. Consider checking the driver&apos;s troubleshooting documentation. 
+Host info: host: &apos;AMIT_PC&apos;, ip: &apos;192.168.1.10&apos;
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:197)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:108)
+	at com.qa.base.BaseTest.ClassSetup(BaseTest.java:88)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Device-2-Test</h2><h3 id="m14">com.qa.tests.LoginTests#AfterSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Failed to open file:/C:/Users/razda/eclipse-workspace/Appium_Practice_New/AppiumProject_Parallel_Maven_Grid/./Reports/22-03-2026_03.29.40.html. Error message: The system cannot find the file specified.
+
+	at java.desktop/sun.awt.windows.WDesktopPeer.ShellExecute(WDesktopPeer.java:119)
+	at java.desktop/sun.awt.windows.WDesktopPeer.browse(WDesktopPeer.java:103)
+	at java.desktop/java.awt.Desktop.browse(Desktop.java:533)
+	at com.qa.base.BaseTest.AfterSetup(BaseTest.java:113)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.qa.tests.LoginTests#Method3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [Please enter your name1] but found [Please enter your name]
+	at com.qa.tests.LoginTests.Method3(LoginTests.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.qa.tests.LoginTests#Method1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.qa.tests.LoginTests#Method2</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Amit</td><td>Algeria</td><td>Male</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.qa.tests.LoginTests#Method2</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Vishal</td><td>China</td><td>Female</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

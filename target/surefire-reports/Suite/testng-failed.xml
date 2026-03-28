@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="Device-1-Test(failed)" verbose="0">
+    <parameter name="SystemPort" value="8200"/>
+    <parameter name="port" value="4725"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Device1"/>
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="TestSetup"/>
+          <include name="ClassTeardown"/>
+          <include name="SuiteSetup"/>
+          <include name="TestTeardowh"/>
+          <include name="Method3"/>
+          <include name="Method1"/>
+          <include name="AfterSetup"/>
+          <include name="ClassSetup"/>
+          <include name="Method2"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
+    </classes>
+  </test> <!-- Device-1-Test(failed) -->
+  <test thread-count="2" parallel="tests" name="Device-2-Test(failed)" verbose="0">
+    <parameter name="SystemPort" value="8201"/>
+    <parameter name="port" value="4727"/>
+    <parameter name="udid" value="emulator-5556"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Device2"/>
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="TestSetup"/>
+          <include name="ClassTeardown"/>
+          <include name="SuiteSetup"/>
+          <include name="TestTeardowh"/>
+          <include name="Method3"/>
+          <include name="AfterSetup"/>
+          <include name="ClassSetup"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
+    </classes>
+  </test> <!-- Device-2-Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

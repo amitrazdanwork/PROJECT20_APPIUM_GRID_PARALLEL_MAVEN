@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 13, Time elapsed: 258.604 s <<< FAILURE! - in TestSuite
+ClassSetup(com.qa.tests.LoginTests)  Time elapsed: 44.706 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.androidsample.generalstore' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.androidsample.generalstore.SplashActivity' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'AMIT_PC', ip: '192.168.1.10'
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\razda\eclipse-work..., appium:automationName: UiAutomator2, appium:chromedriverExecutable: C:\Users\chromedriver.exe, appium:deviceName: Device1, appium:systemPort: 8200, appium:udid: emulator-5554, appium:uiautomator2ServerLaunchTimeout: 600000, platformName: ANDROID}
+
+Method3(com.qa.tests.LoginTests)  Time elapsed: 3.629 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Please enter your name1] but found [Please enter your name]
+	at com.qa.tests.LoginTests.Method3(LoginTests.java:100)
+
+AfterSetup(com.qa.tests.LoginTests)  Time elapsed: 20.089 s  <<< FAILURE!
+java.io.IOException: 
+Failed to open file:/C:/Users/razda/eclipse-workspace/Appium_Practice_New/AppiumProject_Parallel_Maven_Grid/./Reports/22-03-2026_03.29.40.html. Error message: The system cannot find the file specified.
+
+
